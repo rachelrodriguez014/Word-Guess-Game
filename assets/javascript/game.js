@@ -36,7 +36,7 @@ var gamePlay = {
 
         message.textContent = "";
         userGuesses.textContent = "You guessed: ";
-        attemptsLeft.textContent = this.guessesLeft;
+        guessesLeft.textContent = this.guessesLeft;
         inputField.value = "";
     },
 
