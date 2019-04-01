@@ -16,33 +16,37 @@
     </header>
 
     <div class="container">
-        <div class="row">  
-            <div class="card">
-                <div class="card-body">
-                    <header>
-                            <h3>Guess the Word</h3>
-                    </header>
-                    <p id="directions">Press any key to start!</p>
-                    <div class="mobileInput">
-                        <input type="text" id="textInput" value="">
+        <div class="row"> 
+            <div class="col-sm-6"> 
+                <div class="card" id="mainCard">
+                    <div class="card-body">
+                        <header>
+                                <h3>Guess the Word</h3>
+                        </header>
+                        <p id="directions">Press any key to start!</p>
+                        <div class="mobileInput">
+                            <input type="text" id="textInput" value="">
+                        </div>
+                        <p id="message">Let's Play!!</p>
+                        <p id="userAnswer">--Start--</p>
+                        <p id="userGuesses">You guessed: </p>
                     </div>
-                    <p id="message">Let's Play!!</p>
-                    <p id="userAnswer">--Start--</p>
-                    <p id="userGuesses">You guessed: </p>
                 </div>
             </div>
-            <div class="card">
-                <div class="card-body">
-                    
+            <div class="col-sm-6">    
+                <div class="card" id="imgCard">
+                    <div class="card-body">
+                        <img src="assets/images/pic.jpg" alt="img" class="img-fluid" id="picture">
+                    </div>
                 </div>
-            </div>
+            </div>    
         </div>   
     </div> 
 
 
     <div class="container">
-        <div class="card">
-            <div class="card-body">
+        <div class="card" id="scoreCard">
+            <div class="card-body" >
                 <header>
                     <h4> Score Board </h4>
                 </header>

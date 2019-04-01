@@ -29,7 +29,20 @@ h1 {
     color: whitesmoke;
 }
 
-.card {
+#mainCard {
+    margin-left: 100px;
+    opacity: .5;
+    text-align: center;
+    width: 500px;
+}
+#imgCard {
+    width: 400px;
+    opacity: .6;
+    margin-right: 75px;
+
+}
+
+#scoreCard {
     margin-left: 300px;
     opacity: .5;
     text-align: center;
