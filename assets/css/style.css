@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    font-family: 'Gochi Hand', cursive;
+}
+
+header {
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 100px;
+}
+
+/* image somewhere */
+
+
+#main-header {
+    background-color: pink;
+    opacity: .8;
+    width: 100%;
+    padding: .5% 0;
+    margin-bottom: 2%;
+    border-bottom: 1px solid aqua;
+    color: whitesmoke;
+}
+
+.card {
+    margin-left: 300px;
+    opacity: .5;
+    text-align: center;
+    width: 500px;
+}
+
+#textInput {
+    width: 50px;
+    text-align: center;
+}
+
+
+

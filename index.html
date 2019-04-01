@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <h1>SUPERSPACE!</h1>
+    </header>
+
+    <div class="container">
+        <div class="row">  
+            <div class="card">
+                <div class="card-body">
+                    <header>
+                            <h3>Guess the Word</h3>
+                    </header>
+                    <p id="directions">Press any key to start!</p>
+                    <div class="mobileInput">
+                        <input type="text" id="textInput" value="">
+                    </div>
+                    <p id="message">Let's Play!!</p>
+                    <p id="userAnswer">--Start--</p>
+                    <p id="userGuesses">You guessed: </p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    
+                </div>
+            </div>
+        </div>   
+    </div> 
+
+
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <header>
+                    <h4> Score Board </h4>
+                </header>
+                <p>Guesses Left: <span id="guessesLeft">10</span></p>
+                <p>Wins: <span id="wins">0</span></p>
+                <p>Losses: <span id="losses">0</span></p>
+            </div>
+        </div> 
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
