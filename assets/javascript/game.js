@@ -62,7 +62,7 @@ var gamePlay = {
 
         userAnswer.textContent = "";
         for (j=0; j<this.wordDisplay.length; j++){
-            userAnswer.textContent += (this.displayWord[j] + "\xa0");
+            userAnswer.textContent += (this.wordDisplay[j] + "\xa0");
         }
     },
 };
@@ -91,7 +91,7 @@ function replaceBlank(letter){
 function checkAnswer(){
     var inputWord = "";
     for (i=0; i<gamePlay.wordDisplay.length; i++){
-        inputWord += gamePlay.displayWord[i];
+        inputWord += gamePlay.wordDisplay[i];
     }
     return (inputWord == gamePlay.answers);
 }
